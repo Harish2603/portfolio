@@ -1,6 +1,6 @@
 import React,{useState} from "react";
 import './About.css';
-import harish from '../images/harish6.jpeg';
+import harish from '../images/harish6.jpg';
 
 const About = () =>{
 
