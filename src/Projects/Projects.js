@@ -84,7 +84,7 @@ const projects = [
         
     ],
     imageUrl: eatery, 
-    githubUrls: 'https://github.com/VNHarishKumar/Car-Rental-System',
+    githubUrls: 'https://github.com/VNHarishKumar/Eatery-Application',
     skills: ['JAVA', 'MYSQL','JAVA Swing'], 
 
   },
