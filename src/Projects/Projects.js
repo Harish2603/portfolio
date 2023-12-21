@@ -19,7 +19,7 @@ const projects = [
     ],
     imageUrl: port, 
     githubUrls: 'https://github.com/VNHarishKumar/portfolio',
-    skills: ['Node.js', 'MYSQL', 'Packer','Pulumi','Typescript','AWS','GCP'], 
+    skills: ['React','CSS','Javascript','AWS'] ,
 
 
   },
