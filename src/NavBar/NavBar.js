@@ -3,6 +3,7 @@ import React,{useState} from 'react';
 import { Link } from 'react-router-dom';
 import './NavBar.css'; // Import your CSS file for styling
 import logo from '../images/download2.png';
+import Switch from 'react-switch';
 
 const Navbar = () => {
     const [isClicked, setIsClicked] = useState(false);
@@ -13,6 +14,15 @@ const Navbar = () => {
 
       const navbarClass = isClicked ? '#navbar active' : '#navbar';
 
+      const [isDarkTheme, setIsDarkTheme] = useState(false);
+
+  const toggleTheme = () => {
+    // Toggle the theme state
+    setIsDarkTheme((prevTheme) => !prevTheme);
+
+    // Update the body background color based on the theme
+    document.body.style.backgroundColor = isDarkTheme ? '#bfc4ca' : '#333';
+  };
 
 
   return (
@@ -30,7 +40,16 @@ const Navbar = () => {
             <li><Link to="/experience">Experience</Link></li>
             <li><Link to="/projects">Projects</Link></li>
             <li><a href="https://drive.google.com/file/d/1qyn8ROttHVpY0v78SX4ohNZ3aY4oVWPv/view?usp=drive_link" target="_blank" rel="noopener noreferrer">Resume</a></li>
-         
+            <label>
+        <Switch
+          onChange={toggleTheme}
+          checked={isDarkTheme}
+          offColor="#bfc4ca"
+          onColor="#000333"
+          checkedIcon={false}
+          uncheckedIcon={false}
+        />
+      </label>
     </ul>
     </div>
     <div id="mobile">

@@ -36,6 +36,7 @@ nav{
     justify-content: center;
     flex-grow: 1;
     flex-wrap: wrap;
+    padding-right: 8px;
 }
 
 
@@ -113,6 +114,10 @@ nav{
         padding-left: 15px;
         box-sizing: border-box;
     } 
+
+    #navbar label{
+        padding-left: 15px;
+    }
 
     #mobile {
       display: block; 
