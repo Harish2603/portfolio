@@ -21,7 +21,7 @@ const Navbar = () => {
     setIsDarkTheme((prevTheme) => !prevTheme);
 
     // Update the body background color based on the theme
-    document.body.style.backgroundColor = isDarkTheme ? '#bfc4ca' : '#333';
+    document.body.style.backgroundColor = isDarkTheme ? '#bfc4ca' : '#6e727a';
   };
 
 
