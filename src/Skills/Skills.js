@@ -12,6 +12,7 @@ import gcp from '../images/google-cloud.png';
 import git from '../images/git.png';
 import cicd from '../images/GitHub Actions.png';
 import java from '../images/java.png';
+import docker from '../images/docker.png';
 
 const Skills = () => {
     return (
@@ -63,6 +64,9 @@ const Skills = () => {
                 </div>
                 <div className="icon12">
                     <img src={java} alt="java" className="java"  />
+                </div>
+                <div className="icon12">
+                    <img src={docker} alt="docker" className="docker"  />
                 </div>
             </div>
         </div>

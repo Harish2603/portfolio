@@ -8,10 +8,13 @@ import eatery from '../images/eatery.png';
 import carrental from '../images/carrental.png';
 import utube from '../images/utube.png';
 import expense from '../images/expense.png';
+import goal_tracker from '../images/goal_tracker.png';
+
+let a = 0;
 
 const projects = [
   {
-    id: 1,
+    id: a+1,
     title: 'Portfolio',
     description: [
      'Developed a porfolio in react',
@@ -24,7 +27,22 @@ const projects = [
 
   },
   {
-    id: 2,
+    id: a+1,
+    title: 'Goal Tracker',
+    description: [
+        'Developed a micro-service based application using docker',
+        'Created distinct container for frontend, backend and database component',
+        'Implemented the application using both docker command and docker compose',
+        'Used volumes for data persistance for the application',
+        
+    ],
+    imageUrl: goal_tracker, 
+    githubUrls: 'https://github.com/VNHarishKumar/GoalTracker', 
+    skills: ['Node.js', 'React.js','Docker','Docker Compose','Mongo DB'], 
+
+  },
+  {
+    id: a+1,
     title: 'Web-App',
     description: [
       'Designed a backend for cloud application using Node.js and Mysql',
@@ -44,7 +62,7 @@ const projects = [
 
   },
   {
-    id: 3,
+    id: a+1,
     title: 'Youtube Clone',
     description: [
         'Designed a MERN stack application',
@@ -60,7 +78,7 @@ const projects = [
 
   },
   {
-    id: 4,
+    id: a+1,
     title: 'Car Rental System',
     description: [
         'Implemented a feature rich car rental system using PL/SQL',
@@ -74,7 +92,7 @@ const projects = [
 
   },
   {
-    id: 5,
+    id: a+1,
     title: 'Eatery',
     description: [
         'Implemented a feature rich delivery system using Java Swing',
@@ -89,7 +107,7 @@ const projects = [
 
   },
   {
-    id: 6,
+    id: a+1,
     title: 'Expense Tracker',
     description: [
         'Designed and developed a visually striking and highly interactive Expense Tracker using React',
@@ -103,7 +121,7 @@ const projects = [
 
   },
   {
-    id: 7,
+    id: a+1,
     title: 'Fake News Detection',
     description: [
         'Implemented a fake news detection using python',
@@ -115,8 +133,8 @@ const projects = [
     imageUrl: fakenews, 
     githubUrls: 'https://github.com/VNHarishKumar/FakeNewsDetection', 
     skills: ['Python', 'Machine Learning'], 
-
   },
+  
   
 ];
 
