@@ -19,7 +19,7 @@ const Experience = () => {
       <VerticalTimelineElement
         contentStyle={{ background: '#afb4ba', color: '#fff' ,fontFamily:  'Times'}}
         contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-        date="AUG 2020- Jul 2022"
+        date="AUG 2021 - Jul 2022"
         iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
         icon={<FontAwesomeIcon icon={faBriefcase} color=""/>}
        
@@ -49,7 +49,7 @@ const Experience = () => {
       <VerticalTimelineElement
         contentStyle={{ background: '#afb4ba', color: '#fff' ,fontFamily:  'Times'}}
         contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-        date="Jan 2020- May 2020"
+        date="Aug 2020 - Jul 2020"
         iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
         icon={<FaBookOpen />} 
         
@@ -59,7 +59,7 @@ const Experience = () => {
         <div className="desribe-block" >
         <img src={cts} alt="cts" className="cts" height={100} />
        <br /><br />
-        <h2 className="head-content">Graduate Engineer - Internship</h2> <br />
+        <h2 className="head-content">Programmer Analyst Trainee</h2> <br />
         <h2>Cognizant, Chennai, Tamil Nadu, India</h2><br />
         <h3>As a Graduate Engineer I designed and developed a fully functioning website using spring </h3>
         <ul className="body-content"><br />
