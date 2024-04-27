@@ -63,8 +63,11 @@ const Experience = () => {
         <h2>Cognizant, Chennai, Tamil Nadu, India</h2><br />
         <h3>As a Graduate Engineer I designed and developed a fully functioning website using spring </h3>
         <ul className="body-content"><br />
-          <li>Learned Core Java, mysql and spring boot</li><br />
-          <li>Designed a web application on the theme party planning management using spring</li><br />
+          <li>As a team of 6 we designed an end-to-end commercial insurance website to view coverage and buy insurance policy using Java, HTML/CSS, Spring MVC, and MySQL</li><br />
+          <li>Implemented microservice architecture to ensure scalability, maintainability and modularity of the platform</li><br />
+          <li>Designed Continuous Integration/ Continuous Delivery pipeline to deploy the microservices to Amazon Web Services using S3, EC2, ECS, Code Commit, Code Deploy, Docker</li><br />
+          <li>Created test cases covering all functionalities and edge-cases of the application using JUnit</li><br />
+
         </ul>
         </div>
       </VerticalTimelineElement>
