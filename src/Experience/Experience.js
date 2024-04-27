@@ -61,7 +61,7 @@ const Experience = () => {
        <br /><br />
         <h2 className="head-content">Programmer Analyst Trainee</h2> <br />
         <h2>Cognizant, Chennai, Tamil Nadu, India</h2><br />
-        <h3>As a Graduate Engineer I designed and developed a fully functioning website using spring </h3>
+        <h3>As a Programmer Analyst Trainee I designed and developed a fully functioning website using spring </h3>
         <ul className="body-content"><br />
           <li>As a team of 6 we designed an end-to-end commercial insurance website to view coverage and buy insurance policy using Java, HTML/CSS, Spring MVC, and MySQL</li><br />
           <li>Implemented microservice architecture to ensure scalability, maintainability and modularity of the platform</li><br />
