@@ -26,7 +26,7 @@ const Education = () => {
        <br /><br />
         <h2>Master's in Information Systems</h2> <br />
         <h2>Northeastern University, Boston</h2><br />
-        <h2>GPA:3.6</h2>
+        <h2>GPA:3.7</h2>
         </div>
       </VerticalTimelineElement>
      
