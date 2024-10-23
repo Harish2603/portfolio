@@ -30,18 +30,18 @@ const Experience = () => {
         {/* <h2 className="vertical-timeline-element-title">Master's</h2><br /> */}<br /><br />
         <h2 className="head-content">Programmer Analyst - Full Time</h2> <br />
         <h2>Cognizant, Chennai, Tamil Nadu, India</h2><br />
-        <h3>As a Software Engineer I worked in Data Migration and Data Archival team </h3>
+        <h3>As a Software Engineer I worked in Full stack application development team </h3>
         <ul className="body-content"><br />
-          <li>Successfully managed Data Migration and Data Archival project following Software Development life 
- cycle, including scoping, mapping and importing specifications of the project </li><br />
-          <li>Utilized SQL scripts for data transformation and data loading operations using Migration-Center tool</li><br />
-          <li>Worked with cloud Enterprise management systems like Veeva vault during data migration and archival 
- phases</li><br />
-          <li>Collaborated closely with cross-functional teams, including business owners, developers, infrastructure 
- teams, to ensure clear communication and alignment throughout the project </li><br />
-          <li>Met project timelines and budget requirements while delivering high-quality results</li><br />
-          <li>Continuously monitored and provided maintenance support for the implemented data migration and 
- archival solutions, ensuring long-term data integrity and system performance</li><br />
+          <li>Contributed to the development of a full-stack application to track drug trials, renewals, and compliance timelines,
+improving operational efficiency by 25% </li><br />
+          <li>Formulated secure backend APIs with Spring Boot and designed React dashboards for real-time trial progress tracking</li><br />
+          <li>Containerized the app with Docker and deployed it on AWS EC2 with auto-scaling and CloudWatch monitoring,
+achieving 99.9% uptim</li><br />
+          <li>Managed CI/CD pipelines in Jenkins, running automated tests using JUnit and Chai to validate code before integration,
+improving code quality and reducing manual effort </li><br />
+          <li>Generated test cases covering all functionalities and edge-cases of the application using Junit, mocha and chai</li><br />
+          <li>Automated renewal notifications and reminders using AWS SES and SNS, streamlining communication and reducing
+manual tracking efforts across teams</li><br />
         </ul>
         </div>
       </VerticalTimelineElement>

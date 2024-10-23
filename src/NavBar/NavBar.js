@@ -39,7 +39,7 @@ const Navbar = () => {
             <li><Link to="/education">Education</Link></li>
             <li><Link to="/experience">Experience</Link></li>
             <li><Link to="/projects">Projects</Link></li>
-            <li><a href="https://drive.google.com/file/d/1qyn8ROttHVpY0v78SX4ohNZ3aY4oVWPv/view?usp=drive_link" target="_blank" rel="noopener noreferrer">Resume</a></li>
+            <li><a href="https://drive.google.com/file/d/1_mBEuKMJh_32pinJ9EvkFQHhimgRUQIr/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a></li>
             <label>
         <Switch
           onChange={toggleTheme}
