@@ -7,7 +7,7 @@ import emaillogo from '../images/email.png';
 const Home = () => {
     const githubUrl = "https://github.com/VNHarishKumar";
   const linkedinUrl = "https://www.linkedin.com/in/harish-kumar-vaithyan-nandhagopu/";
-  const email = "vaithyannandhagopu.h@northeastern.edu";
+  const email = "harishkumarvaithyannandhagopu@gmail.com";
 
   const [typedText, setTypedText] = useState("");
   const [showCursor] = useState(true);
